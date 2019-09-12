@@ -25,10 +25,10 @@ easily spottes. In L0+Linf the perturbations change color of pixels on homogeneo
 <p align="center"><img src="https://raw.githubusercontent.com/fra31/sparse-imperceivable-attacks/master/images/img_gh_1.png" width="800">
 
 ## Running the attacks
-With python `run_attack.py --dataset=cifar10 --attack=CS --path_results=/path/to/results` one can run CornerSearch (CS) on a CIFAR-10
+With `python run_attack.py --dataset=cifar10 --attack=CS --path_results=/path/to/results` one can run CornerSearch (CS) on a CIFAR-10
 model (note that the datasets need to be loaded separately). All the parameters can be set in `run_attacks.py` and the description of
 each of them
-is available in `cornersearch_attack.py` and `pgd_attacks.py`.
+is available in `cornersearch_attacks.py` and `pgd_attacks.py`.
 
 ## Citations
 ```
